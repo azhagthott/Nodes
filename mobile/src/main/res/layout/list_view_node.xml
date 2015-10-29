@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/node_name"
+            android:id="@+id/textViewPointName"
+            android:textColor="@color/primary_text"
+            android:singleLine="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lat_long"
+            android:id="@+id/textViewPointLatitude"
+            android:textColor="@color/primary_text"
+            android:singleLine="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lng_long"
+            android:id="@+id/textViewPointLongitude"
+            android:textColor="@color/primary_text"
+            android:singleLine="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewPointTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_example"
+        android:textColor="@color/primary_text"
+        android:textSize="28sp"
+        android:singleLine="false"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayoutFragmentNodeDetailed"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/lblTextViewNodeLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/node_latitude"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/textViewNodeLatitude"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/lblTextViewNodeLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/node_longitude"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewNodeLatitude" />
+
+    <TextView
+        android:id="@+id/lblTextViewNodeTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/node_current_temperature"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/lblTextViewNodeLongitude"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="24sp"
+        android:textColor="@color/primary_text"
+        android:id="@+id/textViewNodeName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:id="@+id/textViewNodeLatitude"
+        android:layout_below="@+id/textViewNodeName"
+        android:layout_toEndOf="@+id/lblTextViewNodeLatitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:id="@+id/textViewNodeLongitude"
+        android:layout_alignTop="@+id/lblTextViewNodeLongitude"
+        android:layout_toEndOf="@+id/lblTextViewNodeLongitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:id="@+id/textViewNodeTemperature"
+        android:layout_alignTop="@+id/lblTextViewNodeTemperature"
+        android:layout_toEndOf="@+id/lblTextViewNodeTemperature" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lblTextViewNodeTemperature"
+        android:layout_centerHorizontal="true">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/mChartTemperature"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/mChartHumidity"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/mChartCO2"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+    </LinearLayout>
+
+</RelativeLayout>

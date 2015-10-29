@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_map_type">
+        <item name="normal">Normal</item>
+        <item name="hybrid">Hybrid</item>
+        <item name="terrain">Terrain</item>
+        <item name="satellite">Satellite</item>
+    </string-array>
+
+    <string-array name="array_map_type_values">
+        <item name="normal">1</item>
+        <item name="hybrid">2</item>
+        <item name="terrain">3</item>
+        <item name="satellite">4</item>
+    </string-array>
+
+
+
+    <string-array name="array_data_source">
+        <item name="internal_data">Internal database</item>
+        <item name="orion">Orion</item>
+    </string-array>
+
+    <string-array name="array_data_source_values">
+        <item name="internal_data">1</item>
+        <item name="orion">2</item>
+    </string-array>
+
+</resources>

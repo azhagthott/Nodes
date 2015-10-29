@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">NODES</string>
+    <string name="app_description">Administrador de nodos</string>
+    <string name="exec">EXEC LTDA.</string>
+
+    <string name="action_settings">Config</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_about">About</string>
+    <string name="action_node_register">Registrar nodos</string>
+    <string name="action_node_reader">Leer nodos</string>
+    <string name="action_admin">DB Manager</string>
+
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="title_activity_read_node">Leer Nodo</string>
+    <string name="title_activity_node_register_maps">Registro de Nodos</string>
+
+
+    <string name="node_count">Nodos registrados: </string>
+    <string name="node_count_x">139</string>
+
+    <string name="synchronize">sincronizar</string>
+
+    <!-- SPLASH SCREEN-->
+    <string name="mode_online">WORKING ONLINE MODE</string>
+    <string name="mode_offline">WORKING OFFLINE MODE</string>
+
+    <!-- MAPS-->
+    <string name="node_id">Id:</string>
+    <string name="node_name">Node:</string>
+    <string name="node_latitude">Latitude:</string>
+    <string name="node_longitude">Longitude:</string>
+    <string name="node_current_temperature">Current Temperature:</string>
+    <string name="lat_short">Lat: </string>
+    <string name="lng_short">Lng: </string>
+    <string name="lat_long">Latitude: </string>
+    <string name="lng_long">Longitude: </string>
+    <string name="temperature_long">Temperature: </string>
+    <string name="temperature_short">Temp: </string>
+    <string name="temperature_example">21º</string>
+
+    <string name="btn_view_node">Recargar nodos</string>
+    <string name="btn_save_node">Registrar nodos</string>
+    <string name="btn_view_mode_satelite">satelite</string>
+    <string name="btn_view_mode_terrain">terreno</string>
+    <string name="btn_view_mode_normal">normal</string>
+
+    <!-- QR-->
+    <string name="qr_reading">Leyendo codigo</string>
+    <string name="qr_result_lat">-33.449</string>
+    <string name="qr_result_lng">-70.641</string>
+
+    <!-- SETTINGS -->
+    <string name="pref_map_type">TIPO DE MAPA</string>
+    <string name="pref_map_type_summary">Seleccione el tipo de mapa por defecto</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- DB MANAGER -->
+    <string name="title_activity_admin">DB MANAGER</string>
+    <string name="db_manager_delete_all_data">Borrar todos los nodos</string>
+    <string name="db_manager_create_database">Crear DB (destruye la existente)</string>
+    <string name="title_activity_map">Mapa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_node_detailed_scrolling">Register node</string>
+
+    <!-- Settings-->
+
+    <string name="pref_title_map">Map settings</string>
+    <string name="pref_title_db">Data settings</string>
+    <string name="title_activity_about">About</string>
+
+
+</resources>

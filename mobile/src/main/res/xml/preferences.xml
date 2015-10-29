@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_title_map"
+        android:key="map_preferences">
+
+        <ListPreference
+            android:key="map_type"
+            android:summary="Select default map type"
+            android:title="Map type"
+            android:defaultValue="1"
+            android:entries="@array/array_map_type"
+            android:entryValues="@array/array_map_type_values"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_title_db"
+        android:key="data_preferences">
+
+        <ListPreference
+            android:key="data_type"
+            android:summary="Select main data source"
+            android:title="Data sources"
+            android:defaultValue="1"
+            android:entries="@array/array_data_source"
+            android:entryValues="@array/array_data_source_values"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
